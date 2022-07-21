@@ -98,7 +98,7 @@ function get_categories(){
 
 
 
-function show_prod_cat (){
+function get_products_in_cat_page (){
 
     $query = query(" SELECT * FROM products WHERE product_category_id =" . escape_string($_GET['id']). " ");
     confirm($query);
@@ -115,8 +115,12 @@ function show_prod_cat (){
                     <h4><a href="item.php?id={$row['product_id']}">{$row['product_title']}</a>
                     </h4>
                     <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    
+                    <a class="btn btn-primary" target="_blank" href="item.php?id={$row['product_id']}">Buy Now!</a>    
+                    <a class="btn btn-default" target="_blank" href="item.php?id={$row['product_id']}">More Info</a>
+                    
                 </div>
-                <a class="btn btn-primary" target="_blank" href="item.php?id={$row['product_id']}">View Tutorial</a>
+                
 
 
             </div>
