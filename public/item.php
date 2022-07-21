@@ -8,14 +8,14 @@
 
        <!-- Side Navigation -->
 
-       <?php include(TEMPLATE_FRONT . DS . "side_nav.php") ?>
+    <?php include(TEMPLATE_FRONT . DS . "side_nav.php") ?>
 
-       <?php
+    <?php
 
-            $query = query(" SELECT * FROM products WHERE product_id =" . escape_string($_GET['id']). " ");
-            confirm($query);
+        $query = query(" SELECT * FROM products WHERE product_id =" . escape_string($_GET['id']). " ");
+        confirm($query);
 
-            while($row = fetch_array($query)):
+        while($row = fetch_array($query)):
 
                 
             
