@@ -6,13 +6,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
+            <img class="slide-image" src="https://picsum.photos/200/100" alt="">
+        </div>
+        <div class="item">
             <img class="slide-image" src="https://picsum.photos/300/150" alt="">
         </div>
         <div class="item">
-            <img class="slide-image" src="https://picsum.photos/320/150" alt="">
-        </div>
-        <div class="item">
-            <img class="slide-image" src="https://picsum.photos/330/150" alt="">
+            <img class="slide-image" src="https://picsum.photos/400/200" alt="">
         </div>
     </div>
     <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">

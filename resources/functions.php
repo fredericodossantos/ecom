@@ -38,6 +38,8 @@ function fetch_array($result){
 
 }
 
+
+/*******************************FRONT END FUNTIONS ***********************************/
 // GET PRODUCTS
 
 function  get_products(){
@@ -95,5 +97,21 @@ function get_categories(){
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************BACK END FUNTIONS ***********************************/
 
 ?>
